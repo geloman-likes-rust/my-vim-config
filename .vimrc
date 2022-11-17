@@ -10,8 +10,6 @@ set noerrorbells
 set nowrap
 set incsearch
 set nohlsearch
-set colorcolumn=80
-set signcolumn=yes
 set noshowmode
 
 call plug#begin()
@@ -21,4 +19,5 @@ call plug#end()
 set termguicolors
 colorscheme gruvbox
 
-
+inoremap <c-t> <Esc>:Lex<cr>:vertical resize 25<cr>
+nnoremap <c-t> <Esc>:Lex<cr>:vertical resize 25<cr>
