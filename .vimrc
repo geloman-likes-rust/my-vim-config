@@ -18,6 +18,7 @@ call plug#end()
 
 set termguicolors
 colorscheme gruvbox
+set background=dark
 
 inoremap <c-t> <Esc>:Lex<cr>:vertical resize 25<cr>
 nnoremap <c-t> <Esc>:Lex<cr>:vertical resize 25<cr>
